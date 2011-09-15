@@ -4,7 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-public class Available extends Identity {
+public abstract class Available extends Identity {
     /**
      * UUID.
      */
